@@ -1,0 +1,18 @@
+# EvoluPets config
+economy:
+  use-vault: true
+
+xp:
+  base-unit: 100         # base pour le calcul d'xp
+  exponent: 1.2          # besoin xp = base * level^exponent
+  per-kill: 5
+
+follow:
+  teleport-distance: 12.0
+  run-distance: 4.0
+  run-speed: 0.30
+  tick-interval: 40
+
+gui:
+  size: 27
+  title: "§eEvoluPets — Collection"
